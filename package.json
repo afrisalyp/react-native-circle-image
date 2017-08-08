@@ -1,6 +1,6 @@
 {
   "name": "react-native-circle-image",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Simple react native circle image view.",
   "main": "index.js",
   "scripts": {

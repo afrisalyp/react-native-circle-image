@@ -4,7 +4,9 @@ import {
 } from 'react-native';
 
 const CircleImage = (props) => {
-  return (<Image source={{uri: 'https://s.kompetivo.com/88384bd3.jpg'}} style={{width: 22, height: 22}} />);
+  if(!props.style) props.style = {};
+  props.style.borderRadius = 20;
+  return (<Image source={props.source} style={props.style} />);
 };
 
 export default CircleImage;
