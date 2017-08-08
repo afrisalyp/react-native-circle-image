@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/afrisalyp/react-native-circle-image/issues"
   },
-  "homepage": "https://github.com/afrisalyp/react-native-circle-image#readme"
+  "homepage": "https://github.com/afrisalyp/react-native-circle-image#readme",
+  "dependencies": {
+    "react-native": "^0.47.1"
+  }
 }
